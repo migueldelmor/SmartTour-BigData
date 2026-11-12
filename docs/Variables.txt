@@ -1,0 +1,30 @@
+id_registro
+edad_vivienda_anios ->MEDIA
+superficie_m2  ->IMPORTANTE -> REDUCIDA
+numero_personas ->IMPORTANTE -> REDUCIDA
+habitaciones -> BAJA
+dias_facturacion ->BAJA
+temperatura_media_c ->IMPORTANTE -> REDUCIDA
+temperatura_minima_c -> BAJA
+temperatura_maxima_c -> BAJA
+mes	->BAJA
+zona_climatica -> BAJA
+tipo_vivienda -> MEDIA
+nivel_aislamiento -> IMPORTANTE -> REDUCIDA
+tipo_calefaccion -> MEDIA -> AMPLIADA
+tipo_agua_caliente -> MEDIA
+aire_acondicionado -> MEDIA -> AMPLIADA
+paneles_solares -> IMPORTANTE -> REDUCIDA
+numero_electrodomesticos -> MEDIA -> AMPLIADA
+teletrabajo -> MEDIA
+nivel_ocupacion_diurna -> MEDIA
+potencia_contratada_kw -> BAJA
+tipo_tarifa -> BAJA
+anio -> MEDIA
+
+TIPOS DE modelos
+
+Regresión lineal (OLS)LinearRegression
+Ridge / Lasso	Ridge, Lasso, ElasticNet
+Random Forest	RandomForestRegressor
+Gradient Boosting		HistGradientBoostingRegressor (rápido y soporta categóricas)
