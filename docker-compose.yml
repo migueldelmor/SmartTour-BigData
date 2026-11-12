@@ -5,7 +5,7 @@ services:
   jupyter:
     image: jupyter/scipy-notebook
 
-    container_name: smarttour-jupyter
+    container_name: smarttour-jupyter-1
 
     ports:
       - "8888:8888"
